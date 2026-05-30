@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>متجر النخبة</title>
+
+  <!-- ===== EmailJS - مكتبة الإرسال المجانية ===== -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========================================================
+       قسم الهيدر / التعريف بالمتجر
+       ======================================================== -->
+  <header class="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="container hero-content">
+      <!-- شعار المتجر: غيّر النص أو استبدل بـ <img src="logo.png" /> -->
+      <div class="store-logo">
+        <span class="logo-icon">🛍️</span>
+        <span class="logo-text">متجر النخبة</span>
+      </div>
+      <h1 class="hero-title">أفضل المنتجات<br /><em>بأفضل الأسعار</em></h1>
+      <p class="hero-subtitle">
+        اكتشف مجموعتنا المميزة من المنتجات عالية الجودة.<br />
+        اطلب الآن واستلم بسرعة وأمان.
+      </p>
+      <a href="#products" class="btn-hero">تسوّق الآن ↓</a>
+    </div>
+  </header>
+
+  <!-- ========================================================
+       قسم المنتجات
+       ======================================================== -->
+  <section id="products" class="products-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">منتجاتنا</h2>
+        <p class="section-subtitle">اختر ما تريد وحدد الكمية، ثم أرسل طلبك مباشرة</p>
+      </div>
+
+      <!-- بطاقات المنتجات تُولَّد تلقائياً من JavaScript -->
+      <div class="products-grid" id="productsGrid"></div>
+
+      <!-- ملخص السلة -->
+      <div class="cart-summary" id="cartSummary">
+        <div class="cart-info">
+          <span>المنتجات المختارة: <strong id="selectedCount">0</strong></span>
+          <span class="cart-total">الإجمالي: <strong id="totalPrice">0</strong> ريال</span>
+        </div>
+        <a href="#order-form" class="btn-cart">أكمل الطلب ←</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       نموذج الطلب
+       ======================================================== -->
+  <section id="order-form" class="form-section">
+    <div class="container">
+      <div class="form-card">
+        <div class="form-header">
+          <h2>🧾 تفاصيل الطلب</h2>
+          <p>أكمل بياناتك وسنتواصل معك في أقرب وقت</p>
+        </div>
+
+        <form id="orderForm" novalidate>
+
+          <!-- ملخص المنتجات المختارة داخل النموذج -->
+          <div class="form-order-summary" id="formOrderSummary"></div>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="customerName">اسم العميل *</label>
+              <input type="text" id="customerName" name="customerName"
+                     placeholder="أدخل اسمك الكامل" autocomplete="name" />
+              <span class="field-error" id="nameError"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="customerPhone">رقم الهاتف *</label>
+              <input type="tel" id="customerPhone" name="customerPhone"
+                     placeholder="05xxxxxxxx" autocomplete="tel" />
+              <span class="field-error" id="phoneError"></span>
+            </div>
+          </div>
+
+          <div class="form-group full-width">
+            <label for="customerAddress">العنوان *</label>
+            <input type="text" id="customerAddress" name="customerAddress"
+                   placeholder="المدينة، الحي، الشارع..." autocomplete="street-address" />
+            <span class="field-error" id="addressError"></span>
+          </div>
+
+          <div class="form-group full-width">
+            <label for="customerNotes">ملاحظات إضافية (اختياري)</label>
+            <textarea id="customerNotes" name="customerNotes"
+                      placeholder="أي تفاصيل إضافية تود إضافتها..." rows="3"></textarea>
+          </div>
+
+          <div class="form-products-error" id="productsError"></div>
+
+          <button type="submit" class="btn-submit" id="submitBtn">
+            <span class="btn-text">إرسال الطلب 🚀</span>
+            <span class="btn-loader" id="btnLoader">جارٍ الإرسال...</span>
+          </button>
+        </form>
+
+        <!-- رسالة النجاح -->
+        <div class="success-message" id="successMessage">
+          <div class="success-icon">✅</div>
+          <h3>تم إرسال طلبك بنجاح!</h3>
+          <p>شكراً لثقتك بنا. سنتواصل معك قريباً على رقم الهاتف المُدرج.</p>
+          <button class="btn-new-order" onclick="resetForm()">تقديم طلب جديد</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================
+       الفوتر
+       ======================================================== -->
+  <footer class="footer">
+    <p>© 2025 متجر النخبة — جميع الحقوق محفوظة</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
