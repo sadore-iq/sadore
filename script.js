@@ -279,8 +279,8 @@ document.getElementById('orderForm').addEventListener('submit', async function (
     customer_address: document.getElementById('customerAddress').value.trim(),
     customer_notes:   document.getElementById('customerNotes').value.trim() || 'لا توجد ملاحظات',
     products_list:    productsText,
-    order_total:      `${total.toLocaleString('ar-SA')} ريال`,
-    order_date:       new Date().toLocaleDateString('ar-SA', {
+    order_total:      `${total.toLocaleString('ar-SA')} دينار عراقي`,
+    order_date:       new Date().toLocaleDateString('ar-IQ', {
                         year: 'numeric', month: 'long', day: 'numeric',
                         hour: '2-digit', minute: '2-digit'
                       }),
