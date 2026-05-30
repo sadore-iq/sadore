@@ -13,7 +13,7 @@
    ============================================================ */
 const EMAILJS_CONFIG = {
   publicKey:  '4rVkOGY3YtlkOu5qj',    // ← ضع Public Key هنا
-  serviceID:  'YOUR_SERVICE_ID',    // ← ضع Service ID هنا
+  serviceID:  'Sadoer.iq',    // ← ضع Service ID هنا
   templateID: 'YOUR_TEMPLATE_ID',  // ← ضع Template ID هنا
 };
 
