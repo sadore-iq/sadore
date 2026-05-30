@@ -181,14 +181,14 @@ function updateFormSummary() {
     html += `
       <div class="order-item">
         <span class="order-item-name">${item.name}</span>
-        <span>${item.qty} × ${item.price} = ${lineTotal.toLocaleString('ar-SA')} دينار عراقي</span>
+        <span>${item.qty} × ${item.price} = ${lineTotal.toLocaleString('ar-IQ')} دينار عراقي</span>
       </div>`;
   });
 
   html += `
     <div class="order-total-line">
       <span>الإجمالي الكلي</span>
-      <span>${total.toLocaleString('ar-SA')} ريال</span>
+      <span>${total.toLocaleString('ar-IQ')} دينار عراقي</span>
     </div>`;
 
   container.innerHTML = html;
