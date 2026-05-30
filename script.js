@@ -12,7 +12,7 @@
    5. استبدل القيم أدناه بقيمك الخاصة
    ============================================================ */
 const EMAILJS_CONFIG = {
-  publicKey:  'YOUR_PUBLIC_KEY',    // ← ضع Public Key هنا
+  publicKey:  '4rVkOGY3YtlkOu5qj',    // ← ضع Public Key هنا
   serviceID:  'YOUR_SERVICE_ID',    // ← ضع Service ID هنا
   templateID: 'YOUR_TEMPLATE_ID',  // ← ضع Template ID هنا
 };
