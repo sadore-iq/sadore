@@ -94,7 +94,7 @@ function renderProducts() {
       </div>
       <div class="product-info">
         <div class="product-name">${product.name}</div>
-        <div class="product-price">${product.price} ريال</div>
+        <div class="product-price">${product.price} دينار عراقي</div>
         <div class="qty-wrap">
           <button class="qty-btn" onclick="changeQty(${product.id}, -1)" aria-label="تقليل الكمية">−</button>
           <input class="qty-input" type="number" id="qty_${product.id}"
