@@ -181,7 +181,7 @@ function updateFormSummary() {
     html += `
       <div class="order-item">
         <span class="order-item-name">${item.name}</span>
-        <span>${item.qty} × ${item.price} = ${lineTotal.toLocaleString('ar-SA')} ريال</span>
+        <span>${item.qty} × ${item.price} = ${lineTotal.toLocaleString('ar-SA')} دينار عراقي</span>
       </div>`;
   });
 
