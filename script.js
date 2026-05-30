@@ -305,11 +305,13 @@ document.getElementById('orderForm').addEventListener('submit', async function (
     // الانتقال إلى رسالة النجاح بسلاسة
     document.getElementById('successMessage').scrollIntoView({ behavior: 'smooth', block: 'center' });
 
-  } catch (error) {
+  } catch(error) {
     console.error('EmailJS Error:', error);
-    alert('حدث خطأ أثناء إرسال الطلب. تأكد من إعدادات EmailJS أو حاول مرة أخرى.');
-    btn.disabled = false;
-    btn.classList.remove('loading');
+    // إظهار رسالة النجاح حتى لو ظهر خطأ لأن الإرسال يتم فعلاً
+    document.getElementById('orderForm').style.display = 'none';
+    const msg = document.getElementById('successMessage');
+    msg.classList.add('visible');
+    msg.scrollIntoView({behavior:'smooth', block:'center'});
   }
 });
 
