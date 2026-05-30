@@ -27,7 +27,7 @@ const EMAILJS_CONFIG = {
    ============================================================ */
 const PRODUCTS = [
   // ── المجموعة الأولى ──
-  { id: 1,  name: 'Hyaluronic Acid Face Lifting Ampoules',     price: 5500, image: 'https://github.com/sadore-iq/sadore/blob/main/1778489985350.png?raw=true' },
+  { id: 1,  name: 'Hyaluronic Acid Face Lifting Ampoules',     price: 5500, image: 'https://ibb.co/DHgz7BvS' },
   { id: 2,  name: 'ساعة ذكية رياضية',           price: 299, image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&q=80' },
   { id: 3,  name: 'حقيبة جلد أصلي',             price: 220, image: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&q=80' },
   { id: 4,  name: 'نظارة شمسية بولارايزد',       price: 95,  image: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&q=80' },
