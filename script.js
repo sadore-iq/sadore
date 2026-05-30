@@ -349,3 +349,4 @@ function resetForm() {
 document.addEventListener('DOMContentLoaded', function () {
   renderProducts();
 });
+
