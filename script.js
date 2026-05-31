@@ -40,10 +40,10 @@ const PRODUCTS = [
   { id: 9,  name: 'محارب التصبغات و منعم للبشرة',            price: 5000, image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0007.jpg?raw=true' },
   { id: 10, name: 'ماسك فحم البامبو النشط ',             price: 3000,  image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0008.jpg?raw=true' },
   { id: 11, name: 'غسول الوجه الغني بالB5',       price: 3000,  image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0011.jpg?raw=true' },
-  { id: 12, name: 'شاحن لاسلكي سريع',           price: 98,  image: 'https://images.unsplash.com/photo-1608751819407-8c8672b55e47?w=400&q=80' },
+  { id: 12, name: 'سادور سيروم وكريم دم التنين الدموي المضاد للشيخوخة للوجه',           price: 7500,  image: 'https://github.com/sadore-iq/sadore/blob/main/11_fdc8ae50-8080-4c32-817d-d879ce27088b.webp?raw=true' },
 
   // ── المجموعة الثالثة ──
-  { id: 13, name: 'سماعة أذن مع مايك',          price: 65,  image: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&q=80' },
+  { id: 13, name: '3 في 1 بريمر للوجه قبل المكياج,كريم عزل واقي الشمس, SPF 50',          price: 6500,  image: 'https://raw.githubusercontent.com/sadore-iq/sadore/refs/heads/main/ac2a248b-273d-4643-8472-afe0a4b31e44.avif' },
   { id: 14, name: 'لوحة مفاتيح ميكانيكية',      price: 310, image: 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400&q=80' },
   { id: 15, name: 'ماوس لاسلكي ألعاب',          price: 189, image: 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&q=80' },
   { id: 16, name: 'حزام جلد أصلي',              price: 72,  image: 'https://images.unsplash.com/photo-1624913503273-5f9c4e980dba?w=400&q=80' },
