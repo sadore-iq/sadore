@@ -27,7 +27,7 @@ const EMAILJS_CONFIG = {
    ============================================================ */
 const PRODUCTS = [
   // ── المجموعة الأولى ──
-  { id: 1,  name: 'Hyaluronic Acid Face Lifting Ampoules',     price: 5500, image: 'https://i.ibb.co/YFTPt51q/1778489985350.png' },
+  { id: 1,  name: 'سيروم امبولات من سادور حمض الهيالورونيك',     price: 5500, image: 'https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Farabic.alibaba.com%2Fproduct-detail%2FSADOER-2ml-7pcs-Hyaluronic-acid-Serum-1600545949791.html&ved=0CBYQjRxqFwoTCJimx8nU45QDFQAAAAAdAAAAABAF&opi=89978449' },
   { id: 2,  name: 'ساعة ذكية رياضية',           price: 299, image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&q=80' },
   { id: 3,  name: 'حقيبة جلد أصلي',             price: 220, image: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&q=80' },
   { id: 4,  name: 'نظارة شمسية بولارايزد',       price: 95,  image: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&q=80' },
