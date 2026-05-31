@@ -55,8 +55,8 @@ const PRODUCTS = [
   { id: 20, name: 'سادور تونر ريتينول مضاد للشيخوخة لتفتيح وترطيب البشرة 100 مل.',           price: 88,  image: 'https://raw.githubusercontent.com/sadore-iq/sadore/refs/heads/main/5a273757-7750-4784-9f20-fa23265c7b7c.avif' },
   { id: 21, name: 'واقي شمس مرطب شفاف للوجه مع واقي شمسي كريم مكياج مقاوم للأشعة فوق البنفسج SPF 90 للسفر في الهواء الطلق',          price: 42,  image: 'https://raw.githubusercontent.com/sadore-iq/sadore/refs/heads/main/1d3376f8-94e7-4303-93ec-2bbfaaaac626.avif' },
   { id: 22, name: 'مصل نمو الشعر بالزنجبيل النباتي ، مصل نمو الشعر لتساقط الشعر ، للشعر الجاف والتالف ، يعزز مرونة الشعر وصلابته 30 مل',          price: 130, image: 'https://images.unsplash.com/photo-1593618998160-e34014e67546?w=400&q=80' },
-  { id: 23, name: 'مبرد كاميرا Go Pro',         price: 210, image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&q=80' },
-  { id: 24, name: 'مجموعة ألوان مائية',          price: 58,  image: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400&q=80' },
+  { id: 23, name: 'معجون أسنان مبيض – يزيل بقع القهوة والشاي، بنكهة النعناع المنعشة',         price: 210, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/8745d357-4e78-4424-ae13-930be7ea9e2e.avif' },
+  { id: 24, name: 'سيروم فيتامين اي لتغذيه البشرة وترطيبها',          price: 58,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/5e84b828-967d-46f6-a786-5c35aca68f5c.avif' },
 
   // ── المجموعة الخامسة ──
   { id: 25, name: 'مجموعة عناية بالبشرة',        price: 195, image: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400&q=80' },
