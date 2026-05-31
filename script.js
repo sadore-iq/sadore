@@ -35,11 +35,11 @@ const PRODUCTS = [
   { id: 6,  name: '  نياسيناميد & فيتامينC',            price: 3500, image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0111.jpg?raw=true' },
 
   // ── المجموعة الثانية ──
-  { id: 7,  name: 'محفظة جلدية رجالية',          price: 85,  image: 'https://images.unsplash.com/photo-1627123424574-724758594e93?w=400&q=80' },
-  { id: 8,  name: 'طقم أقلام فاخر',             price: 75,  image: 'https://images.unsplash.com/photo-1585336261022-680e295ce3fe?w=400&q=80' },
-  { id: 9,  name: 'مصباح طاولة LED',            price: 115, image: 'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400&q=80' },
-  { id: 10, name: 'كوب قهوة حراري',             price: 55,  image: 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=400&q=80' },
-  { id: 11, name: 'دفتر ملاحظات جلدي A5',       price: 68,  image: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&q=80' },
+  { id: 7,  name: 'معجون اسنان مبيض بالفحم الفعال',          price: 3000,  image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0003.jpg?raw=true' },
+  { id: 8,  name: '  غسول ببوجه بالأحماض الامينية و الQ10',             price: 3500,  image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0005.jpg?raw=true' },
+  { id: 9,  name: 'محارب التصبغات و منعم للبشرة',            price: 5000, image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0007.jpg?raw=true' },
+  { id: 10, name: 'ماسك فحم البامبو النشط ',             price: 3000,  image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0008.jpg?raw=true' },
+  { id: 11, name: 'غسول الوجه الغني بالB5',       price: 3000,  image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0011.jpg?raw=true' },
   { id: 12, name: 'شاحن لاسلكي سريع',           price: 98,  image: 'https://images.unsplash.com/photo-1608751819407-8c8672b55e47?w=400&q=80' },
 
   // ── المجموعة الثالثة ──
