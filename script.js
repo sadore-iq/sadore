@@ -32,7 +32,7 @@ const PRODUCTS = [
   { id: 3,  name: ' سيروم الكولاجين من سادور ',             price: 10000, image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0010.jpg?raw=true' },
   { id: 4,  name: 'ايكتون من شركة سادور',       price: 95,  image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0107.jpg?raw=true' },
   { id: 5,  name: 'سيروم الأفوكادو',       price: 380, image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0110.jpg?raw=true' },
-  { id: 6,  name: 'حذاء رياضي عصري',            price: 260, image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80' },
+  { id: 6,  name: '  نياسيناميد & فيتامينC',            price: 260, image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0111.jpg?raw=true' },
 
   // ── المجموعة الثانية ──
   { id: 7,  name: 'محفظة جلدية رجالية',          price: 85,  image: 'https://images.unsplash.com/photo-1627123424574-724758594e93?w=400&q=80' },
