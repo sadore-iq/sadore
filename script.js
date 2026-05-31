@@ -47,7 +47,7 @@ const PRODUCTS = [
   { id: 14, name: 'مصل حمض الساليسيليك المضاد لحب الشباب ، يحتوي على حمض الساليسيليك ، والنياسيناميد ، ومستخلص كينتيللا اسياتيكا',      price: 310, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/b732fa6a-3f4f-4239-b96e-172e75f896c6.avif' },
   { id: 15, name: 'مقشر الخوخ للوجه والجسم 500 جرام',          price: 189, image: '' },
   { id: 16, name: 'حزام جلد أصلي',              price: 72,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/dab19bf5-ac1b-47b8-a6ad-c573f3a40005.avif' },
-  { id: 17, name: 'نظارة قراءة طبية',           price: 48,  image: 'https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=400&q=80' },
+  { id: 17, name: 'بخاخ تثبيت المكياج تركيبة سريعة، مقاوم للتلطيخ، يمنع بهتان المكياج بفيتامين سي',           price: 48,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/a63777cc-19e3-4897-bd51-13e4c470bd7a.avif' },
   { id: 18, name: 'غطاء هاتف جلدي',             price: 39,  image: 'https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=400&q=80' },
 
   // ── المجموعة الرابعة ──
