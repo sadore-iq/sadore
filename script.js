@@ -59,12 +59,12 @@ const PRODUCTS = [
   { id: 24, name: 'سيروم فيتامين اي لتغذيه البشرة وترطيبها',          price: 58,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/5e84b828-967d-46f6-a786-5c35aca68f5c.avif' },
 
   // ── المجموعة الخامسة ──
-  { id: 25, name: 'مجموعة عناية بالبشرة',        price: 195, image: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400&q=80' },
-  { id: 26, name: 'قناع وجه طبيعي (10 قطع)',    price: 55,  image: 'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=400&q=80' },
-  { id: 27, name: 'شمعة عطرية فاخرة',           price: 78,  image: 'https://images.unsplash.com/photo-1603006905003-be475563bc59?w=400&q=80' },
-  { id: 28, name: 'إطار صور خشبي 30x40',        price: 36,  image: 'https://images.unsplash.com/photo-1513519245088-0e12902e35a6?w=400&q=80' },
-  { id: 29, name: 'نبتة صناعية ديكور',           price: 45,  image: 'https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=400&q=80' },
-  { id: 30, name: 'سجادة صلاة مطرزة',           price: 120, image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80' },
+  { id: 25, name: 'سكين أكتيف 5 × سيروم تبييض وتفتيح الوجه بفيتامين C 30 مل',        price: 195, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/1.avif' },
+  { id: 26, name: 'كريم اليدين بفيتامين E',    price: 55,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/2.avif' },
+  { id: 27, name: 'معزز شد البشرة فيتا أ ريتينال شوت | مع ريتينال ليبوسوميزد، ماتريكسيل، مُقلل للمسام، يُقلل التجاعيد والخطوط الدقيقة',           price: 78,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/3.avif' },
+  { id: 28, name: 'سيروم حمض الساليسيليك للتحكم في إفراز الزيوت ومكافحة حب الشباب، 30 مل',        price: 36,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/4.avif' },
+  { id: 29, name: 'كريم إزالة الشعر للنساء: كريم مزيل الشعر للمناطق الحميمة ومنطقة العانة مع الصبار وفيتامين E',           price: 45,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/5.avif' },
+  { id: 30, name: 'زيت تدليك جوز الهند متعدد الاستخدامات من سادور، 100 مل',           price: 120, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/6.avif' },
 ];
 
 /* ============================================================
