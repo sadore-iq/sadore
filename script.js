@@ -44,7 +44,7 @@ const PRODUCTS = [
 
   // ── المجموعة الثالثة ──
   { id: 13, name: '3 في 1 بريمر للوجه قبل المكياج,كريم عزل واقي الشمس, SPF 50',          price: 6500,  image: 'https://raw.githubusercontent.com/sadore-iq/sadore/refs/heads/main/ac2a248b-273d-4643-8472-afe0a4b31e44.avif' },
-  { id: 14, name: 'لوحة مفاتيح ميكانيكية',      price: 310, image: 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400&q=80' },
+  { id: 14, name: 'مصل حمض الساليسيليك المضاد لحب الشباب ، يحتوي على حمض الساليسيليك ، والنياسيناميد ، ومستخلص كينتيللا اسياتيكا',      price: 310, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/b732fa6a-3f4f-4239-b96e-172e75f896c6.avif' },
   { id: 15, name: 'ماوس لاسلكي ألعاب',          price: 189, image: 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&q=80' },
   { id: 16, name: 'حزام جلد أصلي',              price: 72,  image: 'https://images.unsplash.com/photo-1624913503273-5f9c4e980dba?w=400&q=80' },
   { id: 17, name: 'نظارة قراءة طبية',           price: 48,  image: 'https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=400&q=80' },
