@@ -29,8 +29,8 @@ const PRODUCTS = [
   // ── المجموعة الأولى ──
   { id: 1,  name: 'سيروم امبولات من سادور حمض الهيالورونيك',     price: 5500, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/%D8%B3%D9%8A%D8%B1%D9%88%D9%85%20%D8%A7%D9%85%D8%A8%D9%88%D9%84%D8%A7%D8%AA%20%D9%85%D9%86%20%D8%B3%D8%A7%D8%AF%D9%88%D8%B1%20%D8%AD%D9%85%D8%B6%20%D8%A7%D9%84%D9%87%D9%8A%D8%A7%D9%84%D9%88%D8%B1%D9%88%D9%86%D9%8A%D9%83.avif' },
   { id: 2,  name: ' غسول كافيار بحمظ الهايلورنك ',           price: 10000, image: 'https://raw.githubusercontent.com/sadore-iq/sadore/refs/heads/main/IMG-20260531-WA0109.jpg' },
-  { id: 3,  name: ' سيروم الكولاجين من سادور ',             price: 10000, image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0109.jpg?raw=true' },
-  { id: 4,  name: '  إيسنس بوسين لإصلاح البشرة',       price: 95,  image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260530-WA0040.jpg?raw=true' },
+  { id: 3,  name: ' سيروم الكولاجين من سادور ',             price: 10000, image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0107.jpg?raw=true' },
+  { id: 4,  name: 'ايكتون من شركة سادور',       price: 95,  image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0107.jpg?raw=true' },
   { id: 5,  name: 'عطر فرنسي فاخر 100ml',       price: 380, image: 'https://images.unsplash.com/photo-1541643600914-78b084683702?w=400&q=80' },
   { id: 6,  name: 'حذاء رياضي عصري',            price: 260, image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80' },
 
