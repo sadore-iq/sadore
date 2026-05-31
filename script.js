@@ -54,7 +54,7 @@ const PRODUCTS = [
   { id: 19, name: 'قناع عصا الشاي الأخضر للوجه - قناع أخضر عصا مزيل الرؤوس السوداء مع مستخلص الشاي الأخضر - تطهير المسام العميقة',             price: 4500, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/3c709726-942b-4fb9-9e5a-9c535eaaa74d.avif' },
   { id: 20, name: 'سادور تونر ريتينول مضاد للشيخوخة لتفتيح وترطيب البشرة 100 مل.',           price: 6000,  image: 'https://raw.githubusercontent.com/sadore-iq/sadore/refs/heads/main/5a273757-7750-4784-9f20-fa23265c7b7c.avif' },
   { id: 21, name: 'واقي شمس مرطب شفاف للوجه مع واقي شمسي كريم مكياج مقاوم للأشعة فوق البنفسج SPF 90 للسفر في الهواء الطلق',          price: 9000,  image: 'https://raw.githubusercontent.com/sadore-iq/sadore/refs/heads/main/1d3376f8-94e7-4303-93ec-2bbfaaaac626.avif' },
-  { id: 22, name: 'مصل نمو الشعر بالزنجبيل النباتي ، مصل نمو الشعر لتساقط الشعر ، للشعر الجاف والتالف ، يعزز مرونة الشعر وصلابته 30 مل',          price: 6000, image: 'https://images.unsplash.com/photo-1593618998160-e34014e67546?w=400&q=80' },
+  { id: 22, name: 'التفتيح وتوحيد اللون – يساعد في تخفيف السواد والتصبغات لتحصلي على يدين أكثر إشراقاً وإشعاعاً.',          price: 5500, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/10.avif' },
   { id: 23, name: 'معجون أسنان مبيض – يزيل بقع القهوة والشاي، بنكهة النعناع المنعشة',         price: 2750, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/8745d357-4e78-4424-ae13-930be7ea9e2e.avif' },
   { id: 24, name: 'سيروم فيتامين اي لتغذيه البشرة وترطيبها',          price: 6500,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/5e84b828-967d-46f6-a786-5c35aca68f5c.avif' },
 
