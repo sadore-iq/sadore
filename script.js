@@ -45,8 +45,8 @@ const PRODUCTS = [
   // ── المجموعة الثالثة ──
   { id: 13, name: '3 في 1 بريمر للوجه قبل المكياج,كريم عزل واقي الشمس, SPF 50',          price: 6500,  image: 'https://raw.githubusercontent.com/sadore-iq/sadore/refs/heads/main/ac2a248b-273d-4643-8472-afe0a4b31e44.avif' },
   { id: 14, name: 'مصل حمض الساليسيليك المضاد لحب الشباب ، يحتوي على حمض الساليسيليك ، والنياسيناميد ، ومستخلص كينتيللا اسياتيكا',      price: 310, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/b732fa6a-3f4f-4239-b96e-172e75f896c6.avif' },
-  { id: 15, name: 'مقشر الخوخ للوجه والجسم 500 جرام',          price: 189, image: '' },
-  { id: 16, name: 'حزام جلد أصلي',              price: 72,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/dab19bf5-ac1b-47b8-a6ad-c573f3a40005.avif' },
+  { id: 15, name: 'مقشر الخوخ للوجه والجسم 500 جرام',          price: 189, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/dab19bf5-ac1b-47b8-a6ad-c573f3a40005.avif' },
+  { id: 16, name: 'مصل نمو الشعر بالزنجبيل النباتي ، مصل نمو الشعر لتساقط الشعر ، للشعر الجاف والتالف ، يعزز مرونة الشعر وصلابته 30 مل',              price: 72,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/633240de-49e2-4748-bc10-2f046f57dbac.avif' },
   { id: 17, name: 'بخاخ تثبيت المكياج تركيبة سريعة، مقاوم للتلطيخ، يمنع بهتان المكياج بفيتامين سي',           price: 48,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/a63777cc-19e3-4897-bd51-13e4c470bd7a.avif' },
   { id: 18, name: 'كريم العين الدوار بتركيبة 4 في 1، يرطب ويفتح ويشد منطقة العين، يحتوي على حمض الهيالورونيك وفيتامين سي والنيكوتيناميد والريتينول',             price: 39,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/91a6798b-54b7-4b5f-84b2-59794ecaf1b9.avif' },
 
