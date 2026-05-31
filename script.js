@@ -28,43 +28,43 @@ const EMAILJS_CONFIG = {
 const PRODUCTS = [
   // ── المجموعة الأولى ──
   { id: 1,  name: 'سيروم امبولات من سادور حمض الهيالورونيك',     price: 5500, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/%D8%B3%D9%8A%D8%B1%D9%88%D9%85%20%D8%A7%D9%85%D8%A8%D9%88%D9%84%D8%A7%D8%AA%20%D9%85%D9%86%20%D8%B3%D8%A7%D8%AF%D9%88%D8%B1%20%D8%AD%D9%85%D8%B6%20%D8%A7%D9%84%D9%87%D9%8A%D8%A7%D9%84%D9%88%D8%B1%D9%88%D9%86%D9%8A%D9%83.avif' },
-  { id: 2,  name: ' غسول كافيار بحمظ الهايلورنك ',           price: 10000, image: 'https://raw.githubusercontent.com/sadore-iq/sadore/refs/heads/main/IMG-20260531-WA0109.jpg' },
-  { id: 3,  name: ' سيروم الكولاجين من سادور ',             price: 10000, image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0010.jpg?raw=true' },
-  { id: 4,  name: 'ايكتون من شركة سادور',       price: 6000,  image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0107.jpg?raw=true' },
-  { id: 5,  name: 'سيروم الأفوكادو',       price: 4500, image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0110.jpg?raw=true' },
+  { id: 2,  name: ' غسول كافيار بحمظ الهايلورنك ',           price: 9000, image: 'https://raw.githubusercontent.com/sadore-iq/sadore/refs/heads/main/IMG-20260531-WA0109.jpg' },
+  { id: 3,  name: ' سيروم الكولاجين من سادور ',             price: 6000, image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0010.jpg?raw=true' },
+  { id: 4,  name: 'ايكتون من شركة سادور',       price: 6250,  image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0107.jpg?raw=true' },
+  { id: 5,  name: 'سيروم الأفوكادو',       price: 4750, image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0110.jpg?raw=true' },
   { id: 6,  name: '  نياسيناميد & فيتامينC',            price: 3500, image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0111.jpg?raw=true' },
 
   // ── المجموعة الثانية ──
   { id: 7,  name: 'معجون اسنان مبيض بالفحم الفعال',          price: 3000,  image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0003.jpg?raw=true' },
   { id: 8,  name: '  غسول ببوجه بالأحماض الامينية و الQ10',             price: 3500,  image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0005.jpg?raw=true' },
   { id: 9,  name: 'محارب التصبغات و منعم للبشرة',            price: 5000, image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0007.jpg?raw=true' },
-  { id: 10, name: 'ماسك فحم البامبو النشط ',             price: 3000,  image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0008.jpg?raw=true' },
-  { id: 11, name: 'غسول الوجه الغني بالB5',       price: 3000,  image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0011.jpg?raw=true' },
-  { id: 12, name: 'سادور سيروم وكريم دم التنين الدموي المضاد للشيخوخة للوجه',           price: 7500,  image: 'https://github.com/sadore-iq/sadore/blob/main/11_fdc8ae50-8080-4c32-817d-d879ce27088b.webp?raw=true' },
+  { id: 10, name: 'ماسك فحم البامبو النشط ',             price: 3500,  image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0008.jpg?raw=true' },
+  { id: 11, name: 'غسول الوجه الغني بالB5',       price: 3250,  image: 'https://github.com/sadore-iq/sadore/blob/main/IMG-20260531-WA0011.jpg?raw=true' },
+  { id: 12, name: 'سادور سيروم وكريم دم التنين الدموي المضاد للشيخوخة للوجه',           price: 5250,  image: 'https://github.com/sadore-iq/sadore/blob/main/11_fdc8ae50-8080-4c32-817d-d879ce27088b.webp?raw=true' },
 
   // ── المجموعة الثالثة ──
   { id: 13, name: '3 في 1 بريمر للوجه قبل المكياج,كريم عزل واقي الشمس, SPF 50',          price: 6500,  image: 'https://raw.githubusercontent.com/sadore-iq/sadore/refs/heads/main/ac2a248b-273d-4643-8472-afe0a4b31e44.avif' },
-  { id: 14, name: 'مصل حمض الساليسيليك المضاد لحب الشباب ، يحتوي على حمض الساليسيليك ، والنياسيناميد ، ومستخلص كينتيللا اسياتيكا',      price: 310, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/b732fa6a-3f4f-4239-b96e-172e75f896c6.avif' },
-  { id: 15, name: 'مقشر الخوخ للوجه والجسم 500 جرام',          price: 189, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/dab19bf5-ac1b-47b8-a6ad-c573f3a40005.avif' },
-  { id: 16, name: 'مصل نمو الشعر بالزنجبيل النباتي ، مصل نمو الشعر لتساقط الشعر ، للشعر الجاف والتالف ، يعزز مرونة الشعر وصلابته 30 مل',              price: 72,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/633240de-49e2-4748-bc10-2f046f57dbac.avif' },
-  { id: 17, name: 'بخاخ تثبيت المكياج تركيبة سريعة، مقاوم للتلطيخ، يمنع بهتان المكياج بفيتامين سي',           price: 48,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/a63777cc-19e3-4897-bd51-13e4c470bd7a.avif' },
-  { id: 18, name: 'كريم العين الدوار بتركيبة 4 في 1، يرطب ويفتح ويشد منطقة العين، يحتوي على حمض الهيالورونيك وفيتامين سي والنيكوتيناميد والريتينول',             price: 39,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/91a6798b-54b7-4b5f-84b2-59794ecaf1b9.avif' },
+  { id: 14, name: 'مصل حمض الساليسيليك المضاد لحب الشباب ، يحتوي على حمض الساليسيليك ، والنياسيناميد ، ومستخلص كينتيللا اسياتيكا',      price: 5000, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/b732fa6a-3f4f-4239-b96e-172e75f896c6.avif' },
+  { id: 15, name: 'مقشر الخوخ للوجه والجسم 500 جرام',          price: 3500, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/dab19bf5-ac1b-47b8-a6ad-c573f3a40005.avif' },
+  { id: 16, name: 'مصل نمو الشعر بالزنجبيل النباتي ، مصل نمو الشعر لتساقط الشعر ، للشعر الجاف والتالف ، يعزز مرونة الشعر وصلابته 30 مل',              price: 8500,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/633240de-49e2-4748-bc10-2f046f57dbac.avif' },
+  { id: 17, name: 'بخاخ تثبيت المكياج تركيبة سريعة، مقاوم للتلطيخ، يمنع بهتان المكياج بفيتامين سي',           price: 6250,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/a63777cc-19e3-4897-bd51-13e4c470bd7a.avif' },
+  { id: 18, name: 'كريم العين الدوار بتركيبة 4 في 1، يرطب ويفتح ويشد منطقة العين، يحتوي على حمض الهيالورونيك وفيتامين سي والنيكوتيناميد والريتينول',             price: 4500,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/91a6798b-54b7-4b5f-84b2-59794ecaf1b9.avif' },
 
   // ── المجموعة الرابعة ──
-  { id: 19, name: 'قناع عصا الشاي الأخضر للوجه - قناع أخضر عصا مزيل الرؤوس السوداء مع مستخلص الشاي الأخضر - تطهير المسام العميقة',             price: 175, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/3c709726-942b-4fb9-9e5a-9c535eaaa74d.avif' },
-  { id: 20, name: 'سادور تونر ريتينول مضاد للشيخوخة لتفتيح وترطيب البشرة 100 مل.',           price: 88,  image: 'https://raw.githubusercontent.com/sadore-iq/sadore/refs/heads/main/5a273757-7750-4784-9f20-fa23265c7b7c.avif' },
-  { id: 21, name: 'واقي شمس مرطب شفاف للوجه مع واقي شمسي كريم مكياج مقاوم للأشعة فوق البنفسج SPF 90 للسفر في الهواء الطلق',          price: 42,  image: 'https://raw.githubusercontent.com/sadore-iq/sadore/refs/heads/main/1d3376f8-94e7-4303-93ec-2bbfaaaac626.avif' },
-  { id: 22, name: 'مصل نمو الشعر بالزنجبيل النباتي ، مصل نمو الشعر لتساقط الشعر ، للشعر الجاف والتالف ، يعزز مرونة الشعر وصلابته 30 مل',          price: 130, image: 'https://images.unsplash.com/photo-1593618998160-e34014e67546?w=400&q=80' },
-  { id: 23, name: 'معجون أسنان مبيض – يزيل بقع القهوة والشاي، بنكهة النعناع المنعشة',         price: 210, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/8745d357-4e78-4424-ae13-930be7ea9e2e.avif' },
-  { id: 24, name: 'سيروم فيتامين اي لتغذيه البشرة وترطيبها',          price: 58,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/5e84b828-967d-46f6-a786-5c35aca68f5c.avif' },
+  { id: 19, name: 'قناع عصا الشاي الأخضر للوجه - قناع أخضر عصا مزيل الرؤوس السوداء مع مستخلص الشاي الأخضر - تطهير المسام العميقة',             price: 4500, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/3c709726-942b-4fb9-9e5a-9c535eaaa74d.avif' },
+  { id: 20, name: 'سادور تونر ريتينول مضاد للشيخوخة لتفتيح وترطيب البشرة 100 مل.',           price: 6000,  image: 'https://raw.githubusercontent.com/sadore-iq/sadore/refs/heads/main/5a273757-7750-4784-9f20-fa23265c7b7c.avif' },
+  { id: 21, name: 'واقي شمس مرطب شفاف للوجه مع واقي شمسي كريم مكياج مقاوم للأشعة فوق البنفسج SPF 90 للسفر في الهواء الطلق',          price: 9000,  image: 'https://raw.githubusercontent.com/sadore-iq/sadore/refs/heads/main/1d3376f8-94e7-4303-93ec-2bbfaaaac626.avif' },
+  { id: 22, name: 'مصل نمو الشعر بالزنجبيل النباتي ، مصل نمو الشعر لتساقط الشعر ، للشعر الجاف والتالف ، يعزز مرونة الشعر وصلابته 30 مل',          price: 6000, image: 'https://images.unsplash.com/photo-1593618998160-e34014e67546?w=400&q=80' },
+  { id: 23, name: 'معجون أسنان مبيض – يزيل بقع القهوة والشاي، بنكهة النعناع المنعشة',         price: 2750, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/8745d357-4e78-4424-ae13-930be7ea9e2e.avif' },
+  { id: 24, name: 'سيروم فيتامين اي لتغذيه البشرة وترطيبها',          price: 6500,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/5e84b828-967d-46f6-a786-5c35aca68f5c.avif' },
 
   // ── المجموعة الخامسة ──
-  { id: 25, name: 'سكين أكتيف 5 × سيروم تبييض وتفتيح الوجه بفيتامين C 30 مل',        price: 195, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/1.avif' },
-  { id: 26, name: 'كريم اليدين بفيتامين E',    price: 55,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/2.avif' },
-  { id: 27, name: 'معزز شد البشرة فيتا أ ريتينال شوت | مع ريتينال ليبوسوميزد، ماتريكسيل، مُقلل للمسام، يُقلل التجاعيد والخطوط الدقيقة',           price: 78,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/3.avif' },
-  { id: 28, name: 'سيروم حمض الساليسيليك للتحكم في إفراز الزيوت ومكافحة حب الشباب، 30 مل',        price: 36,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/4.avif' },
-  { id: 29, name: 'كريم إزالة الشعر للنساء: كريم مزيل الشعر للمناطق الحميمة ومنطقة العانة مع الصبار وفيتامين E',           price: 45,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/5.avif' },
-  { id: 30, name: 'زيت تدليك جوز الهند متعدد الاستخدامات من سادور، 100 مل',           price: 120, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/6.avif' },
+  { id: 25, name: 'سكين أكتيف 5 × سيروم تبييض وتفتيح الوجه بفيتامين C 30 مل',        price: 5000, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/1.avif' },
+  { id: 26, name: 'كريم اليدين بفيتامين E',    price: 4000,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/2.avif' },
+  { id: 27, name: 'معزز شد البشرة فيتا أ ريتينال شوت | مع ريتينال ليبوسوميزد، ماتريكسيل، مُقلل للمسام، يُقلل التجاعيد والخطوط الدقيقة',           price: 4750,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/3.avif' },
+  { id: 28, name: 'سيروم حمض الساليسيليك للتحكم في إفراز الزيوت ومكافحة حب الشباب، 30 مل',        price: 6000,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/4.avif' },
+  { id: 29, name: 'كريم إزالة الشعر للنساء: كريم مزيل الشعر للمناطق الحميمة ومنطقة العانة مع الصبار وفيتامين E',           price: 5000,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/5.avif' },
+  { id: 30, name: 'زيت تدليك جوز الهند متعدد الاستخدامات من سادور، 100 مل',           price: 6000, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/6.avif' },
 ];
 
 /* ============================================================
