@@ -48,13 +48,13 @@ const PRODUCTS = [
   { id: 15, name: 'مقشر الخوخ للوجه والجسم 500 جرام',          price: 189, image: '' },
   { id: 16, name: 'حزام جلد أصلي',              price: 72,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/dab19bf5-ac1b-47b8-a6ad-c573f3a40005.avif' },
   { id: 17, name: 'بخاخ تثبيت المكياج تركيبة سريعة، مقاوم للتلطيخ، يمنع بهتان المكياج بفيتامين سي',           price: 48,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/a63777cc-19e3-4897-bd51-13e4c470bd7a.avif' },
-  { id: 18, name: 'غطاء هاتف جلدي',             price: 39,  image: 'https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?w=400&q=80' },
+  { id: 18, name: 'كريم العين الدوار بتركيبة 4 في 1، يرطب ويفتح ويشد منطقة العين، يحتوي على حمض الهيالورونيك وفيتامين سي والنيكوتيناميد والريتينول',             price: 39,  image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/91a6798b-54b7-4b5f-84b2-59794ecaf1b9.avif' },
 
   // ── المجموعة الرابعة ──
-  { id: 19, name: 'حقيبة ظهر سفر',             price: 175, image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&q=80' },
-  { id: 20, name: 'وسادة تدليك رقبة',           price: 88,  image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=400&q=80' },
-  { id: 21, name: 'زجاجة مياه رياضية',          price: 42,  image: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400&q=80' },
-  { id: 22, name: 'سكين مطبخ احترافي',          price: 130, image: 'https://images.unsplash.com/photo-1593618998160-e34014e67546?w=400&q=80' },
+  { id: 19, name: 'قناع عصا الشاي الأخضر للوجه - قناع أخضر عصا مزيل الرؤوس السوداء مع مستخلص الشاي الأخضر - تطهير المسام العميقة',             price: 175, image: 'https://github.com/sadore-iq/sadore/raw/refs/heads/main/3c709726-942b-4fb9-9e5a-9c535eaaa74d.avif' },
+  { id: 20, name: 'سادور تونر ريتينول مضاد للشيخوخة لتفتيح وترطيب البشرة 100 مل.',           price: 88,  image: 'https://raw.githubusercontent.com/sadore-iq/sadore/refs/heads/main/5a273757-7750-4784-9f20-fa23265c7b7c.avif' },
+  { id: 21, name: 'واقي شمس مرطب شفاف للوجه مع واقي شمسي كريم مكياج مقاوم للأشعة فوق البنفسج SPF 90 للسفر في الهواء الطلق',          price: 42,  image: 'https://raw.githubusercontent.com/sadore-iq/sadore/refs/heads/main/1d3376f8-94e7-4303-93ec-2bbfaaaac626.avif' },
+  { id: 22, name: 'مصل نمو الشعر بالزنجبيل النباتي ، مصل نمو الشعر لتساقط الشعر ، للشعر الجاف والتالف ، يعزز مرونة الشعر وصلابته 30 مل',          price: 130, image: 'https://images.unsplash.com/photo-1593618998160-e34014e67546?w=400&q=80' },
   { id: 23, name: 'مبرد كاميرا Go Pro',         price: 210, image: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&q=80' },
   { id: 24, name: 'مجموعة ألوان مائية',          price: 58,  image: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400&q=80' },
 
